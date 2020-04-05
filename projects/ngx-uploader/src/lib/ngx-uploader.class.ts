@@ -327,7 +327,7 @@ export class NgUploaderService {
     };
   }
 
-  private parseResponseHeaders(httpHeaders: string) {
+  private parseResponseHeaders(httpHeaders: string): any {
     if (!httpHeaders) {
       return;
     }
